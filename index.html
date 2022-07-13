@@ -1,0 +1,1887 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    Ponyva és reklám - Ponyva készítés - M0 Ponyva
+  </title>
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/tailwind.css" />
+
+  <meta name="description" content="Ponyvakészítés - Kamionok, teherautók, utánfutók, terasz, kerthelyiségek, kocsibeállók, tárolók, hajók, árnyékolók ponyvázása és egyedi ponyva készítés.">
+
+  <!-- ==== WOW JS ==== -->
+  <script src="assets/js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</head>
+
+<body>
+  <!-- ====== Navbar Section Start -->
+  <div class="
+        ud-header
+        bg-transparent
+        absolute
+        top-0
+        left-0
+        z-40
+        w-full
+        flex
+        items-center
+      ">
+    <div class="container">
+      <div class="flex -mx-4 items-center justify-between relative">
+        <div class="px-4 w-60 max-w-full">
+          <a href="#home" class="navbar-logo w-full block py-5">
+            <img src="assets/images/logo/logo-white.png" alt="logo" class="w-full header-logo" />
+          </a>
+        </div>
+        <div class="flex px-4 justify-between items-center w-full">
+          <div>
+            <button id="navbarToggler" class="
+                  block
+                  absolute
+                  right-4
+                  top-1/2
+                  -translate-y-1/2
+                  lg:hidden
+                  focus:ring-2
+                  ring-primary
+                  px-3
+                  py-[6px]
+                  rounded-lg
+                ">
+              <span class="relative w-[30px] h-[2px] my-[6px] block bg-white"></span>
+              <span class="relative w-[30px] h-[2px] my-[6px] block bg-white"></span>
+              <span class="relative w-[30px] h-[2px] my-[6px] block bg-white"></span>
+            </button>
+            <nav id="navbarCollapse" class="
+                  absolute
+                  py-5
+                  lg:py-0 lg:px-4
+                  xl:px-6
+                  bg-white
+                  lg:bg-transparent
+                  shadow-lg
+                  rounded-lg
+                  max-w-[250px]
+                  w-full
+                  lg:max-w-full lg:w-full
+                  right-4
+                  top-full
+                  hidden
+                  lg:block lg:static lg:shadow-none
+                ">
+              <ul class="blcok lg:flex">
+                <li class="relative group">
+                  <a href="#szolgaltatasok" class="
+                        ud-menu-scroll
+                        text-base text-dark
+                        lg:text-white
+                        lg:group-hover:opacity-70
+                        lg:group-hover:text-white
+                        group-hover:text-primary
+                        py-2
+                        lg:py-6 lg:inline-flex lg:px-0
+                        flex
+                        mx-8
+                        lg:mr-0 lg:ml-7
+                        xl:ml-12
+                      ">
+                    Szolgáltatásaink
+                  </a>
+                </li>
+                <li class="relative group">
+                  <a href="#gyik" class="
+                        ud-menu-scroll
+                        text-base text-dark
+                        lg:text-white
+                        lg:group-hover:opacity-70
+                        lg:group-hover:text-white
+                        group-hover:text-primary
+                        py-2
+                        lg:py-6 lg:inline-flex lg:px-0
+                        flex
+                        mx-8
+                        lg:mr-0 lg:ml-7
+                        xl:ml-12
+                      ">
+                    Rólunk
+                  </a>
+                </li>
+                <li class="relative group">
+                  <a href="#rolunk" class="
+                        ud-menu-scroll
+                        text-base text-dark
+                        lg:text-white
+                        lg:group-hover:opacity-70
+                        lg:group-hover:text-white
+                        group-hover:text-primary
+                        py-2
+                        lg:py-6 lg:inline-flex lg:px-0
+                        flex
+                        mx-8
+                        lg:mr-0 lg:ml-7
+                        xl:ml-12
+                      ">
+                    Ügyfeleink
+                  </a>
+                </li>
+                <li class="relative group">
+                  <a href="#kapcsolat" class="
+                        ud-menu-scroll
+                        text-base text-dark
+                        lg:text-white
+                        lg:group-hover:opacity-70
+                        lg:group-hover:text-white
+                        group-hover:text-primary
+                        py-2
+                        lg:py-6 lg:inline-flex lg:px-0
+                        flex
+                        mx-8
+                        lg:mr-0 lg:ml-7
+                        xl:ml-12
+                      ">
+                    Kapcsolat
+                  </a>
+                </li>
+                <!-- <li class="relative group submenu-item">
+                  <a href="javascript:void(0)" class="
+                        text-base text-dark
+                        lg:text-white
+                        lg:group-hover:opacity-70
+                        lg:group-hover:text-white
+                        group-hover:text-primary
+                        py-2
+                        lg:py-6 lg:inline-flex lg:pl-0 lg:pr-4
+                        flex
+                        mx-8
+                        lg:mr-0 lg:ml-8
+                        xl:ml-12
+                        relative
+                        after:absolute
+                        after:w-2
+                        after:h-2
+                        after:border-b-2
+                        after:border-r-2
+                        after:border-current
+                        after:rotate-45
+                        lg:after:right-0
+                        after:right-1
+                        after:top-1/2
+                        after:-translate-y-1/2
+                        after:mt-[-2px]
+                      ">
+                    Pages
+                  </a>
+                  <div class="
+                        submenu
+                        hidden
+                        relative
+                        lg:absolute
+                        w-[250px]
+                        top-full
+                        lg:top-[110%]
+                        left-0
+                        rounded-sm
+                        lg:shadow-lg
+                        p-4
+                        lg:block lg:opacity-0 lg:invisible
+                        group-hover:opacity-100
+                        lg:group-hover:visible lg:group-hover:top-full
+                        bg-white
+                        transition-[top]
+                        duration-300
+                      ">
+                    <a href="about.html" class="
+                          block
+                          text-sm text-body-color
+                          rounded
+                          hover:text-primary
+                          py-[10px]
+                          px-4
+                        ">
+                      About Page
+                    </a>
+                    <a href="pricing.html" class="
+                          block
+                          text-sm text-body-color
+                          rounded
+                          hover:text-primary
+                          py-[10px]
+                          px-4
+                        ">
+                      Pricing Page
+                    </a>
+                    <a href="contact.html" class="
+                          block
+                          text-sm text-body-color
+                          rounded
+                          hover:text-primary
+                          py-[10px]
+                          px-4
+                        ">
+                      Contact Page
+                    </a>
+                    <a href="blog-grids.html" class="
+                          block
+                          text-sm text-body-color
+                          rounded
+                          hover:text-primary
+                          py-[10px]
+                          px-4
+                        ">
+                      Blog Grid Page
+                    </a>
+                    <a href="blog-details.html" class="
+                          block
+                          text-sm text-body-color
+                          rounded
+                          hover:text-primary
+                          py-[10px]
+                          px-4
+                        ">
+                      Blog Details Page
+                    </a>
+                    <a href="signup.html" class="
+                          block
+                          text-sm text-body-color
+                          rounded
+                          hover:text-primary
+                          py-[10px]
+                          px-4
+                        ">
+                      Sign Up Page
+                    </a>
+                    <a href="signin.html" class="
+                          block
+                          text-sm text-body-color
+                          rounded
+                          hover:text-primary
+                          py-[10px]
+                          px-4
+                        ">
+                      Sign In Page
+                    </a>
+                    <a href="404.html" class="
+                          block
+                          text-sm text-body-color
+                          rounded
+                          hover:text-primary
+                          py-[10px]
+                          px-4
+                        ">
+                      404 Page
+                    </a>
+                  </div>
+                </li> -->
+              </ul>
+            </nav>
+          </div>
+          <div class="sm:flex justify-end hidden pr-16 lg:pr-0">
+            <a href="https://www.facebook.com/Ponyva.Reklam.Sporteszkoz.Keszites/" target="blank" class="
+                  text-base
+                  font-medium
+                  text-white
+                  hover:opacity-70
+                  py-3
+                  px-7
+                  loginBtn
+                ">
+              Facebook
+            </a>
+            <a href="tel:+36706683014" class="
+                  text-base
+                  font-medium
+                  text-white
+                  bg-white bg-opacity-20
+                  rounded-lg
+                  py-3
+                  px-6
+                  hover:bg-opacity-100 hover:text-dark
+                  signUpBtn
+                  duration-300
+                  ease-in-out
+                ">
+              Hívjon most
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ====== Navbar Section End -->
+
+  <!-- ====== Hero Section Start -->
+  <div id="home" class="relative pt-[120px] md:pt-[130px] lg:pt-[160px] bg-primary">
+    <div class="container">
+      <div class="flex flex-wrap items-center -mx-4">
+        <div class="w-full px-4">
+          <div class="
+                hero-content
+                text-center
+                max-w-[780px]
+                mx-auto
+                wow
+                fadeInUp
+              " data-wow-delay=".2s">
+            <h1 class="
+                  text-white
+                  font-bold
+                  text-3xl
+                  sm:text-4xl
+                  md:text-[45px]
+                  leading-snug
+                  sm:leading-snug
+                  md:leading-snug
+                  mb-8
+                ">
+              Ponyva készítés mesterfokon
+            </h1>
+            <p class="
+                  text-base
+                  sm:text-lg sm:leading-relaxed
+                  md:text-xl md:leading-relaxed
+                  mx-auto
+                  mb-10
+                  text-[#e4e4e4]
+                  max-w-[600px]
+                ">
+              Kamionok, teherautók, utánfutók, terasz, kerthelyiségek,
+              kocsibeállók, tárolók, hajók, árnyékolók ponyvázása és egyedi ponyva készítés.
+            </p>
+            <ul class="flex flex-wrap items-center justify-center mb-10">
+              <li>
+                <a href="tel:+36706683014" class="
+                      py-4
+                      px-6
+                      sm:px-10
+                      inline-flex
+                      items-center
+                      justify-center
+                      text-center text-dark text-base
+                      bg-white
+                      hover:text-primary hover:shadow-lg
+                      font-medium
+                      rounded-lg
+                      transition
+                      duration-300
+                      ease-in-out
+                    ">
+                  +36 70 668 3014
+                </a>
+              </li>
+              <li>
+                <a href="szolgaltatasok.html" target="_blank" class="
+                      text-base
+                      font-medium
+                      text-white
+                      py-4
+                      px-6
+                      sm:px-10
+                      flex
+                      items-center
+                      hover:opacity-70
+                      transition
+                      duration-300
+                      ease-in-out
+                    ">
+                  Szolgáltatások
+                  <span class="pl-2">
+                    <svg width="20" height="8" viewBox="0 0 20 8" class="fill-current">
+                      <path
+                        d="M19.2188 2.90632L17.0625 0.343819C16.875 0.125069 16.5312 0.0938193 16.2812 0.281319C16.0625 0.468819 16.0312 0.812569 16.2188 1.06257L18.25 3.46882H0.9375C0.625 3.46882 0.375 3.71882 0.375 4.03132C0.375 4.34382 0.625 4.59382 0.9375 4.59382H18.25L16.2188 7.00007C16.0312 7.21882 16.0625 7.56257 16.2812 7.78132C16.375 7.87507 16.5 7.90632 16.625 7.90632C16.7812 7.90632 16.9375 7.84382 17.0312 7.71882L19.1875 5.15632C19.75 4.46882 19.75 3.53132 19.2188 2.90632Z" />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <!-- <div class="text-center wow fadeInUp" data-wow-delay=".3s">
+              <img src="assets/images/hero/brand.svg" alt="image" class="
+                    max-w-[250px]
+                    w-full
+                    mx-auto
+                    opacity-50
+                    hover:opacity-100
+                    transition
+                    duration-300
+                    ease-in-out
+                  " />
+            </div> -->
+          </div>
+        </div>
+
+        <div class="w-full px-4">
+          <div class="mx-auto max-w-[845px] relative z-10 wow fadeInUp" data-wow-delay=".25s">
+            <div class="mt-16">
+              <img src="assets/images/hero/hero-image.jpg" alt="hero"
+                class="max-w-full mx-auto rounded-t-xl rounded-tr-xl" />
+            </div>
+            <div class="absolute z-[-1] bottom-0 -left-9">
+              <svg width="134" height="106" viewBox="0 0 134 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="1.66667" cy="104" r="1.66667" transform="rotate(-90 1.66667 104)" fill="white" />
+                <circle cx="16.3333" cy="104" r="1.66667" transform="rotate(-90 16.3333 104)" fill="white" />
+                <circle cx="31" cy="104" r="1.66667" transform="rotate(-90 31 104)" fill="white" />
+                <circle cx="45.6667" cy="104" r="1.66667" transform="rotate(-90 45.6667 104)" fill="white" />
+                <circle cx="60.3333" cy="104" r="1.66667" transform="rotate(-90 60.3333 104)" fill="white" />
+                <circle cx="88.6667" cy="104" r="1.66667" transform="rotate(-90 88.6667 104)" fill="white" />
+                <circle cx="117.667" cy="104" r="1.66667" transform="rotate(-90 117.667 104)" fill="white" />
+                <circle cx="74.6667" cy="104" r="1.66667" transform="rotate(-90 74.6667 104)" fill="white" />
+                <circle cx="103" cy="104" r="1.66667" transform="rotate(-90 103 104)" fill="white" />
+                <circle cx="132" cy="104" r="1.66667" transform="rotate(-90 132 104)" fill="white" />
+                <circle cx="1.66667" cy="89.3333" r="1.66667" transform="rotate(-90 1.66667 89.3333)" fill="white" />
+                <circle cx="16.3333" cy="89.3333" r="1.66667" transform="rotate(-90 16.3333 89.3333)" fill="white" />
+                <circle cx="31" cy="89.3333" r="1.66667" transform="rotate(-90 31 89.3333)" fill="white" />
+                <circle cx="45.6667" cy="89.3333" r="1.66667" transform="rotate(-90 45.6667 89.3333)" fill="white" />
+                <circle cx="60.3333" cy="89.3338" r="1.66667" transform="rotate(-90 60.3333 89.3338)" fill="white" />
+                <circle cx="88.6667" cy="89.3338" r="1.66667" transform="rotate(-90 88.6667 89.3338)" fill="white" />
+                <circle cx="117.667" cy="89.3338" r="1.66667" transform="rotate(-90 117.667 89.3338)" fill="white" />
+                <circle cx="74.6667" cy="89.3338" r="1.66667" transform="rotate(-90 74.6667 89.3338)" fill="white" />
+                <circle cx="103" cy="89.3338" r="1.66667" transform="rotate(-90 103 89.3338)" fill="white" />
+                <circle cx="132" cy="89.3338" r="1.66667" transform="rotate(-90 132 89.3338)" fill="white" />
+                <circle cx="1.66667" cy="74.6673" r="1.66667" transform="rotate(-90 1.66667 74.6673)" fill="white" />
+                <circle cx="1.66667" cy="31.0003" r="1.66667" transform="rotate(-90 1.66667 31.0003)" fill="white" />
+                <circle cx="16.3333" cy="74.6668" r="1.66667" transform="rotate(-90 16.3333 74.6668)" fill="white" />
+                <circle cx="16.3333" cy="31.0003" r="1.66667" transform="rotate(-90 16.3333 31.0003)" fill="white" />
+                <circle cx="31" cy="74.6668" r="1.66667" transform="rotate(-90 31 74.6668)" fill="white" />
+                <circle cx="31" cy="31.0003" r="1.66667" transform="rotate(-90 31 31.0003)" fill="white" />
+                <circle cx="45.6667" cy="74.6668" r="1.66667" transform="rotate(-90 45.6667 74.6668)" fill="white" />
+                <circle cx="45.6667" cy="31.0003" r="1.66667" transform="rotate(-90 45.6667 31.0003)" fill="white" />
+                <circle cx="60.3333" cy="74.6668" r="1.66667" transform="rotate(-90 60.3333 74.6668)" fill="white" />
+                <circle cx="60.3333" cy="31.0001" r="1.66667" transform="rotate(-90 60.3333 31.0001)" fill="white" />
+                <circle cx="88.6667" cy="74.6668" r="1.66667" transform="rotate(-90 88.6667 74.6668)" fill="white" />
+                <circle cx="88.6667" cy="31.0001" r="1.66667" transform="rotate(-90 88.6667 31.0001)" fill="white" />
+                <circle cx="117.667" cy="74.6668" r="1.66667" transform="rotate(-90 117.667 74.6668)" fill="white" />
+                <circle cx="117.667" cy="31.0001" r="1.66667" transform="rotate(-90 117.667 31.0001)" fill="white" />
+                <circle cx="74.6667" cy="74.6668" r="1.66667" transform="rotate(-90 74.6667 74.6668)" fill="white" />
+                <circle cx="74.6667" cy="31.0001" r="1.66667" transform="rotate(-90 74.6667 31.0001)" fill="white" />
+                <circle cx="103" cy="74.6668" r="1.66667" transform="rotate(-90 103 74.6668)" fill="white" />
+                <circle cx="103" cy="31.0001" r="1.66667" transform="rotate(-90 103 31.0001)" fill="white" />
+                <circle cx="132" cy="74.6668" r="1.66667" transform="rotate(-90 132 74.6668)" fill="white" />
+                <circle cx="132" cy="31.0001" r="1.66667" transform="rotate(-90 132 31.0001)" fill="white" />
+                <circle cx="1.66667" cy="60.0003" r="1.66667" transform="rotate(-90 1.66667 60.0003)" fill="white" />
+                <circle cx="1.66667" cy="16.3336" r="1.66667" transform="rotate(-90 1.66667 16.3336)" fill="white" />
+                <circle cx="16.3333" cy="60.0003" r="1.66667" transform="rotate(-90 16.3333 60.0003)" fill="white" />
+                <circle cx="16.3333" cy="16.3336" r="1.66667" transform="rotate(-90 16.3333 16.3336)" fill="white" />
+                <circle cx="31" cy="60.0003" r="1.66667" transform="rotate(-90 31 60.0003)" fill="white" />
+                <circle cx="31" cy="16.3336" r="1.66667" transform="rotate(-90 31 16.3336)" fill="white" />
+                <circle cx="45.6667" cy="60.0003" r="1.66667" transform="rotate(-90 45.6667 60.0003)" fill="white" />
+                <circle cx="45.6667" cy="16.3336" r="1.66667" transform="rotate(-90 45.6667 16.3336)" fill="white" />
+                <circle cx="60.3333" cy="60.0003" r="1.66667" transform="rotate(-90 60.3333 60.0003)" fill="white" />
+                <circle cx="60.3333" cy="16.3336" r="1.66667" transform="rotate(-90 60.3333 16.3336)" fill="white" />
+                <circle cx="88.6667" cy="60.0003" r="1.66667" transform="rotate(-90 88.6667 60.0003)" fill="white" />
+                <circle cx="88.6667" cy="16.3336" r="1.66667" transform="rotate(-90 88.6667 16.3336)" fill="white" />
+                <circle cx="117.667" cy="60.0003" r="1.66667" transform="rotate(-90 117.667 60.0003)" fill="white" />
+                <circle cx="117.667" cy="16.3336" r="1.66667" transform="rotate(-90 117.667 16.3336)" fill="white" />
+                <circle cx="74.6667" cy="60.0003" r="1.66667" transform="rotate(-90 74.6667 60.0003)" fill="white" />
+                <circle cx="74.6667" cy="16.3336" r="1.66667" transform="rotate(-90 74.6667 16.3336)" fill="white" />
+                <circle cx="103" cy="60.0003" r="1.66667" transform="rotate(-90 103 60.0003)" fill="white" />
+                <circle cx="103" cy="16.3336" r="1.66667" transform="rotate(-90 103 16.3336)" fill="white" />
+                <circle cx="132" cy="60.0003" r="1.66667" transform="rotate(-90 132 60.0003)" fill="white" />
+                <circle cx="132" cy="16.3336" r="1.66667" transform="rotate(-90 132 16.3336)" fill="white" />
+                <circle cx="1.66667" cy="45.3336" r="1.66667" transform="rotate(-90 1.66667 45.3336)" fill="white" />
+                <circle cx="1.66667" cy="1.66683" r="1.66667" transform="rotate(-90 1.66667 1.66683)" fill="white" />
+                <circle cx="16.3333" cy="45.3336" r="1.66667" transform="rotate(-90 16.3333 45.3336)" fill="white" />
+                <circle cx="16.3333" cy="1.66683" r="1.66667" transform="rotate(-90 16.3333 1.66683)" fill="white" />
+                <circle cx="31" cy="45.3336" r="1.66667" transform="rotate(-90 31 45.3336)" fill="white" />
+                <circle cx="31" cy="1.66683" r="1.66667" transform="rotate(-90 31 1.66683)" fill="white" />
+                <circle cx="45.6667" cy="45.3336" r="1.66667" transform="rotate(-90 45.6667 45.3336)" fill="white" />
+                <circle cx="45.6667" cy="1.66683" r="1.66667" transform="rotate(-90 45.6667 1.66683)" fill="white" />
+                <circle cx="60.3333" cy="45.3338" r="1.66667" transform="rotate(-90 60.3333 45.3338)" fill="white" />
+                <circle cx="60.3333" cy="1.66707" r="1.66667" transform="rotate(-90 60.3333 1.66707)" fill="white" />
+                <circle cx="88.6667" cy="45.3338" r="1.66667" transform="rotate(-90 88.6667 45.3338)" fill="white" />
+                <circle cx="88.6667" cy="1.66707" r="1.66667" transform="rotate(-90 88.6667 1.66707)" fill="white" />
+                <circle cx="117.667" cy="45.3338" r="1.66667" transform="rotate(-90 117.667 45.3338)" fill="white" />
+                <circle cx="117.667" cy="1.66707" r="1.66667" transform="rotate(-90 117.667 1.66707)" fill="white" />
+                <circle cx="74.6667" cy="45.3338" r="1.66667" transform="rotate(-90 74.6667 45.3338)" fill="white" />
+                <circle cx="74.6667" cy="1.66707" r="1.66667" transform="rotate(-90 74.6667 1.66707)" fill="white" />
+                <circle cx="103" cy="45.3338" r="1.66667" transform="rotate(-90 103 45.3338)" fill="white" />
+                <circle cx="103" cy="1.66707" r="1.66667" transform="rotate(-90 103 1.66707)" fill="white" />
+                <circle cx="132" cy="45.3338" r="1.66667" transform="rotate(-90 132 45.3338)" fill="white" />
+                <circle cx="132" cy="1.66707" r="1.66667" transform="rotate(-90 132 1.66707)" fill="white" />
+              </svg>
+            </div>
+            <div class="absolute z-[-1] -top-6 -right-6">
+              <svg width="134" height="106" viewBox="0 0 134 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="1.66667" cy="104" r="1.66667" transform="rotate(-90 1.66667 104)" fill="white" />
+                <circle cx="16.3333" cy="104" r="1.66667" transform="rotate(-90 16.3333 104)" fill="white" />
+                <circle cx="31" cy="104" r="1.66667" transform="rotate(-90 31 104)" fill="white" />
+                <circle cx="45.6667" cy="104" r="1.66667" transform="rotate(-90 45.6667 104)" fill="white" />
+                <circle cx="60.3333" cy="104" r="1.66667" transform="rotate(-90 60.3333 104)" fill="white" />
+                <circle cx="88.6667" cy="104" r="1.66667" transform="rotate(-90 88.6667 104)" fill="white" />
+                <circle cx="117.667" cy="104" r="1.66667" transform="rotate(-90 117.667 104)" fill="white" />
+                <circle cx="74.6667" cy="104" r="1.66667" transform="rotate(-90 74.6667 104)" fill="white" />
+                <circle cx="103" cy="104" r="1.66667" transform="rotate(-90 103 104)" fill="white" />
+                <circle cx="132" cy="104" r="1.66667" transform="rotate(-90 132 104)" fill="white" />
+                <circle cx="1.66667" cy="89.3333" r="1.66667" transform="rotate(-90 1.66667 89.3333)" fill="white" />
+                <circle cx="16.3333" cy="89.3333" r="1.66667" transform="rotate(-90 16.3333 89.3333)" fill="white" />
+                <circle cx="31" cy="89.3333" r="1.66667" transform="rotate(-90 31 89.3333)" fill="white" />
+                <circle cx="45.6667" cy="89.3333" r="1.66667" transform="rotate(-90 45.6667 89.3333)" fill="white" />
+                <circle cx="60.3333" cy="89.3338" r="1.66667" transform="rotate(-90 60.3333 89.3338)" fill="white" />
+                <circle cx="88.6667" cy="89.3338" r="1.66667" transform="rotate(-90 88.6667 89.3338)" fill="white" />
+                <circle cx="117.667" cy="89.3338" r="1.66667" transform="rotate(-90 117.667 89.3338)" fill="white" />
+                <circle cx="74.6667" cy="89.3338" r="1.66667" transform="rotate(-90 74.6667 89.3338)" fill="white" />
+                <circle cx="103" cy="89.3338" r="1.66667" transform="rotate(-90 103 89.3338)" fill="white" />
+                <circle cx="132" cy="89.3338" r="1.66667" transform="rotate(-90 132 89.3338)" fill="white" />
+                <circle cx="1.66667" cy="74.6673" r="1.66667" transform="rotate(-90 1.66667 74.6673)" fill="white" />
+                <circle cx="1.66667" cy="31.0003" r="1.66667" transform="rotate(-90 1.66667 31.0003)" fill="white" />
+                <circle cx="16.3333" cy="74.6668" r="1.66667" transform="rotate(-90 16.3333 74.6668)" fill="white" />
+                <circle cx="16.3333" cy="31.0003" r="1.66667" transform="rotate(-90 16.3333 31.0003)" fill="white" />
+                <circle cx="31" cy="74.6668" r="1.66667" transform="rotate(-90 31 74.6668)" fill="white" />
+                <circle cx="31" cy="31.0003" r="1.66667" transform="rotate(-90 31 31.0003)" fill="white" />
+                <circle cx="45.6667" cy="74.6668" r="1.66667" transform="rotate(-90 45.6667 74.6668)" fill="white" />
+                <circle cx="45.6667" cy="31.0003" r="1.66667" transform="rotate(-90 45.6667 31.0003)" fill="white" />
+                <circle cx="60.3333" cy="74.6668" r="1.66667" transform="rotate(-90 60.3333 74.6668)" fill="white" />
+                <circle cx="60.3333" cy="31.0001" r="1.66667" transform="rotate(-90 60.3333 31.0001)" fill="white" />
+                <circle cx="88.6667" cy="74.6668" r="1.66667" transform="rotate(-90 88.6667 74.6668)" fill="white" />
+                <circle cx="88.6667" cy="31.0001" r="1.66667" transform="rotate(-90 88.6667 31.0001)" fill="white" />
+                <circle cx="117.667" cy="74.6668" r="1.66667" transform="rotate(-90 117.667 74.6668)" fill="white" />
+                <circle cx="117.667" cy="31.0001" r="1.66667" transform="rotate(-90 117.667 31.0001)" fill="white" />
+                <circle cx="74.6667" cy="74.6668" r="1.66667" transform="rotate(-90 74.6667 74.6668)" fill="white" />
+                <circle cx="74.6667" cy="31.0001" r="1.66667" transform="rotate(-90 74.6667 31.0001)" fill="white" />
+                <circle cx="103" cy="74.6668" r="1.66667" transform="rotate(-90 103 74.6668)" fill="white" />
+                <circle cx="103" cy="31.0001" r="1.66667" transform="rotate(-90 103 31.0001)" fill="white" />
+                <circle cx="132" cy="74.6668" r="1.66667" transform="rotate(-90 132 74.6668)" fill="white" />
+                <circle cx="132" cy="31.0001" r="1.66667" transform="rotate(-90 132 31.0001)" fill="white" />
+                <circle cx="1.66667" cy="60.0003" r="1.66667" transform="rotate(-90 1.66667 60.0003)" fill="white" />
+                <circle cx="1.66667" cy="16.3336" r="1.66667" transform="rotate(-90 1.66667 16.3336)" fill="white" />
+                <circle cx="16.3333" cy="60.0003" r="1.66667" transform="rotate(-90 16.3333 60.0003)" fill="white" />
+                <circle cx="16.3333" cy="16.3336" r="1.66667" transform="rotate(-90 16.3333 16.3336)" fill="white" />
+                <circle cx="31" cy="60.0003" r="1.66667" transform="rotate(-90 31 60.0003)" fill="white" />
+                <circle cx="31" cy="16.3336" r="1.66667" transform="rotate(-90 31 16.3336)" fill="white" />
+                <circle cx="45.6667" cy="60.0003" r="1.66667" transform="rotate(-90 45.6667 60.0003)" fill="white" />
+                <circle cx="45.6667" cy="16.3336" r="1.66667" transform="rotate(-90 45.6667 16.3336)" fill="white" />
+                <circle cx="60.3333" cy="60.0003" r="1.66667" transform="rotate(-90 60.3333 60.0003)" fill="white" />
+                <circle cx="60.3333" cy="16.3336" r="1.66667" transform="rotate(-90 60.3333 16.3336)" fill="white" />
+                <circle cx="88.6667" cy="60.0003" r="1.66667" transform="rotate(-90 88.6667 60.0003)" fill="white" />
+                <circle cx="88.6667" cy="16.3336" r="1.66667" transform="rotate(-90 88.6667 16.3336)" fill="white" />
+                <circle cx="117.667" cy="60.0003" r="1.66667" transform="rotate(-90 117.667 60.0003)" fill="white" />
+                <circle cx="117.667" cy="16.3336" r="1.66667" transform="rotate(-90 117.667 16.3336)" fill="white" />
+                <circle cx="74.6667" cy="60.0003" r="1.66667" transform="rotate(-90 74.6667 60.0003)" fill="white" />
+                <circle cx="74.6667" cy="16.3336" r="1.66667" transform="rotate(-90 74.6667 16.3336)" fill="white" />
+                <circle cx="103" cy="60.0003" r="1.66667" transform="rotate(-90 103 60.0003)" fill="white" />
+                <circle cx="103" cy="16.3336" r="1.66667" transform="rotate(-90 103 16.3336)" fill="white" />
+                <circle cx="132" cy="60.0003" r="1.66667" transform="rotate(-90 132 60.0003)" fill="white" />
+                <circle cx="132" cy="16.3336" r="1.66667" transform="rotate(-90 132 16.3336)" fill="white" />
+                <circle cx="1.66667" cy="45.3336" r="1.66667" transform="rotate(-90 1.66667 45.3336)" fill="white" />
+                <circle cx="1.66667" cy="1.66683" r="1.66667" transform="rotate(-90 1.66667 1.66683)" fill="white" />
+                <circle cx="16.3333" cy="45.3336" r="1.66667" transform="rotate(-90 16.3333 45.3336)" fill="white" />
+                <circle cx="16.3333" cy="1.66683" r="1.66667" transform="rotate(-90 16.3333 1.66683)" fill="white" />
+                <circle cx="31" cy="45.3336" r="1.66667" transform="rotate(-90 31 45.3336)" fill="white" />
+                <circle cx="31" cy="1.66683" r="1.66667" transform="rotate(-90 31 1.66683)" fill="white" />
+                <circle cx="45.6667" cy="45.3336" r="1.66667" transform="rotate(-90 45.6667 45.3336)" fill="white" />
+                <circle cx="45.6667" cy="1.66683" r="1.66667" transform="rotate(-90 45.6667 1.66683)" fill="white" />
+                <circle cx="60.3333" cy="45.3338" r="1.66667" transform="rotate(-90 60.3333 45.3338)" fill="white" />
+                <circle cx="60.3333" cy="1.66707" r="1.66667" transform="rotate(-90 60.3333 1.66707)" fill="white" />
+                <circle cx="88.6667" cy="45.3338" r="1.66667" transform="rotate(-90 88.6667 45.3338)" fill="white" />
+                <circle cx="88.6667" cy="1.66707" r="1.66667" transform="rotate(-90 88.6667 1.66707)" fill="white" />
+                <circle cx="117.667" cy="45.3338" r="1.66667" transform="rotate(-90 117.667 45.3338)" fill="white" />
+                <circle cx="117.667" cy="1.66707" r="1.66667" transform="rotate(-90 117.667 1.66707)" fill="white" />
+                <circle cx="74.6667" cy="45.3338" r="1.66667" transform="rotate(-90 74.6667 45.3338)" fill="white" />
+                <circle cx="74.6667" cy="1.66707" r="1.66667" transform="rotate(-90 74.6667 1.66707)" fill="white" />
+                <circle cx="103" cy="45.3338" r="1.66667" transform="rotate(-90 103 45.3338)" fill="white" />
+                <circle cx="103" cy="1.66707" r="1.66667" transform="rotate(-90 103 1.66707)" fill="white" />
+                <circle cx="132" cy="45.3338" r="1.66667" transform="rotate(-90 132 45.3338)" fill="white" />
+                <circle cx="132" cy="1.66707" r="1.66667" transform="rotate(-90 132 1.66707)" fill="white" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ====== Hero Section End -->
+
+  <!-- ====== Features Section Start -->
+  <section id="szolgaltatasok" class="pt-20 lg:pt-[120px] pb-8 lg:pb-[70px]">
+    <div class="container">
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full px-4">
+          <div class="mb-12 lg:mb-20 max-w-[620px]">
+            <span class="font-semibold text-lg text-primary mb-2 block">
+              Ponyva és reklám
+            </span>
+            <h2 class="
+                  font-bold
+                  text-3xl
+                  sm:text-4xl
+                  md:text-[42px]
+                  text-dark
+                  mb-4
+                ">
+              Szolgáltatásaink
+            </h2>
+            <p class="
+                  text-lg
+                  sm:text-xl
+                  leading-relaxed
+                  sm:leading-relaxed
+                  text-body-color
+                ">
+
+              Előzetesen egyeztetett időpontban hétköznap és akár hétvégén is várjuk szeretettel ügyfeleinket.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+          <div class="bg-white mb-12 group wow fadeInUp" data-wow-delay=".1s">
+            <div class="
+                  w-[70px]
+                  h-[70px]
+                  flex
+                  items-center
+                  justify-center
+                  bg-primary
+                  rounded-2xl
+                  mb-8
+                  relative
+                  z-10
+                ">
+              <span class="
+                    w-[70px]
+                    h-[70px]
+                    flex
+                    items-center
+                    justify-center
+                    bg-primary bg-opacity-20
+                    rounded-2xl
+                    mb-8
+                    absolute
+                    z-[-1]
+                    top-0
+                    left-0
+                    rotate-[25deg]
+                    group-hover:rotate-45
+                    duration-300
+                  "></span>
+                  <svg fill="#000000" width="52" height="52" version="1.1" id="lni_lni-delivery" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                    y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+                  <path d="M58.2,11.5H26.9c-2.5,0-4.6,2.1-4.6,4.6v0.7H8.6c-0.9,0-1.7,0.5-2.1,1.3l-5,10.1c-0.2,0.3-0.2,0.7-0.2,1.1v15.6
+                    c0,1,0.8,1.8,1.8,1.8h2.9c0.5,3.6,3.6,6.3,7.3,6.3s6.8-2.8,7.3-6.3h3.5H42c0.5,3.6,3.6,6.3,7.3,6.3s6.8-2.8,7.3-6.3h3.7
+                    c1.4,0,2.5-1.1,2.5-2.5V16C62.8,13.5,60.7,11.5,58.2,11.5z M9.3,20.2h13.1v7H5.8L9.3,20.2z M13.2,49.4c-2.2,0-3.9-1.8-3.9-3.9
+                    s1.8-3.9,3.9-3.9s3.9,1.8,3.9,3.9S15.4,49.4,13.2,49.4z M13.2,38.1c-3.2,0-6,2.1-7,5H4.8V30.8h17.6v12.3h-2.1
+                    C19.2,40.2,16.5,38.1,13.2,38.1z M49.3,49.4c-2.2,0-3.9-1.8-3.9-3.9s1.8-3.9,3.9-3.9s3.9,1.8,3.9,3.9S51.4,49.4,49.3,49.4z
+                    M59.3,43.1h-3c-1-2.9-3.8-5-7-5s-6,2.1-7,5H25.8V16c0-0.6,0.5-1.1,1.1-1.1h31.3c0.6,0,1.1,0.5,1.1,1.1V43.1z" fill="white"/>
+                  </svg>
+
+            </div>
+            <h4 class="font-bold text-xl text-dark mb-3">
+              Kamion, teherautó
+            </h4>
+            <p class="text-body-color mb-8 lg:mb-11">
+              Kamionok, utánfutók ponyvázása. Igény esetén felépítménnyel együtt.
+            </p>
+            <a href="szolgaltatasok.html" class="font-medium text-base text-body-color hover:text-primary">
+              Bővebben
+            </a>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+          <div class="bg-white mb-12 group wow fadeInUp" data-wow-delay=".15s">
+            <div class="
+                  w-[70px]
+                  h-[70px]
+                  flex
+                  items-center
+                  justify-center
+                  bg-primary
+                  rounded-2xl
+                  mb-8
+                  relative
+                  z-10
+                ">
+              <span class="
+                    w-[70px]
+                    h-[70px]
+                    flex
+                    items-center
+                    justify-center
+                    bg-primary bg-opacity-20
+                    rounded-2xl
+                    mb-8
+                    absolute
+                    z-[-1]
+                    top-0
+                    left-0
+                    rotate-[25deg]
+                    group-hover:rotate-45
+                    duration-300
+                  "></span>
+
+                <svg fill="#000000" width="52" height="52" version="1.1" id="lni_lni-ship" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+                  <g>
+                    <path d="M11.8,43.1v4.8c0,1,0.8,1.8,1.8,1.8s1.8-0.8,1.8-1.8v-5c0-0.1,0-0.3-0.1-0.4l-4.8-19.6L32,18l21.6,4.8l-4.8,19.6
+                      c0,0.1-0.1,0.3-0.1,0.4v5c0,1,0.8,1.8,1.8,1.8s1.8-0.8,1.8-1.8v-4.8L57.4,22c0.1-0.5,0-0.9-0.2-1.3c-0.2-0.4-0.6-0.7-1.1-0.8
+                      l-6.5-1.5V8.3c0-3.9-3.1-7-7-7H21.5c-3.9,0-7,3.2-7,7v10.1l-6.5,1.5c-0.5,0.1-0.9,0.4-1.1,0.8C6.5,21,6.5,21.5,6.6,22L11.8,43.1z
+                      M17.9,8.3c0-1.9,1.6-3.5,3.5-3.5h21.1c1.9,0,3.5,1.6,3.5,3.5v9.3l-13.7-3.1c-0.3-0.1-0.5-0.1-0.8,0l-13.7,3.1V8.3z" fill="white"/>
+                    <path d="M57,54c-2.9,0-4.4,1.9-5.6,3.3c-1,1.3-1.6,2-2.8,2c-1.2,0-1.8-0.7-2.8-2c-1.1-1.4-2.6-3.3-5.6-3.3c-2.9,0-4.4,1.9-5.5,3.3
+                      c-1,1.3-1.6,2-2.8,2c-1.2,0-1.8-0.7-2.8-2c-1.1-1.4-2.6-3.3-5.5-3.3c-2.9,0-4.4,1.9-5.5,3.3c-1,1.3-1.6,2-2.8,2
+                      c-1.2,0-1.8-0.7-2.8-2C11.4,55.9,9.9,54,7,54c-1,0-1.8,0.8-1.8,1.8S6,57.5,7,57.5c1.2,0,1.8,0.7,2.8,2c1.1,1.4,2.6,3.3,5.5,3.3
+                      c2.9,0,4.4-1.9,5.5-3.3c1-1.3,1.6-2,2.8-2c1.2,0,1.8,0.7,2.8,2c1.1,1.4,2.6,3.3,5.5,3.3c2.9,0,4.4-1.9,5.5-3.3c1-1.3,1.6-2,2.8-2
+                      c1.2,0,1.8,0.7,2.8,2c1.1,1.4,2.6,3.3,5.6,3.3c2.9,0,4.4-1.9,5.6-3.3c1-1.3,1.6-2,2.8-2c1,0,1.8-0.8,1.8-1.8S58,54,57,54z" fill="white"/>
+                  </g>
+                </svg>
+
+            </div>
+            <h4 class="font-bold text-xl text-dark mb-3">
+              Hajóponyva
+            </h4>
+            <p class="text-body-color mb-8 lg:mb-11">
+              Teljes hajótest, hajómotor, fülketakaró ponyva készítése, javítása.
+            </p>
+            <a href="szolgaltatasok.html" class="font-medium text-base text-body-color hover:text-primary">
+              Bővebben
+            </a>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+          <div class="bg-white mb-12 group wow fadeInUp" data-wow-delay=".2s">
+            <div class="
+                  w-[70px]
+                  h-[70px]
+                  flex
+                  items-center
+                  justify-center
+                  bg-primary
+                  rounded-2xl
+                  mb-8
+                  relative
+                  z-10
+                ">
+              <span class="
+                    w-[70px]
+                    h-[70px]
+                    flex
+                    items-center
+                    justify-center
+                    bg-primary bg-opacity-20
+                    rounded-2xl
+                    mb-8
+                    absolute
+                    z-[-1]
+                    top-0
+                    left-0
+                    rotate-[25deg]
+                    group-hover:rotate-45
+                    duration-300
+                  "></span>
+              <svg fill="#fff" width="52" height="52" version="1.1" id="lni_lni-restaurant" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+                <g>
+                  <path d="M59.9,18.1L51.7,3.6c-0.8-1.4-2.3-2.3-3.9-2.3H16.2c-1.6,0-3.1,0.9-3.9,2.3L4.1,18.1c0,0,0,0,0,0c0,0.1-0.1,0.1-0.1,0.2
+                    c-0.1,0.2-0.1,0.4-0.1,0.6v39.3c0,2.5,2,4.5,4.5,4.5h7.8h10.5h28.8c2.5,0,4.5-2,4.5-4.5V19C60.1,18.7,60,18.4,59.9,18.1z M17,20.6
+                    c-0.2,2.5-2.3,4.4-4.8,4.4c-2.5,0-4.6-1.9-4.8-4.4H17z M30.2,20.6C30,23.1,27.9,25,25.4,25c-2.5,0-4.6-1.9-4.8-4.4H30.2z
+                    M43.4,20.6c-0.2,2.5-2.3,4.4-4.8,4.4s-4.6-1.9-4.8-4.4H43.4z M56.5,20.6c-0.2,2.5-2.3,4.4-4.8,4.4c-2.5,0-4.6-1.9-4.8-4.4H56.5z
+                    M15.4,5.3c0.2-0.3,0.5-0.5,0.9-0.5h31.5c0.4,0,0.7,0.2,0.9,0.5l6.7,11.9h-10c0,0,0,0,0,0h-0.2c0,0,0,0,0,0H31.9c0,0,0,0,0,0H19
+                    c0,0,0,0,0,0h-0.2c0,0,0,0,0,0h-10L15.4,5.3z M18,59.3V42.7c0-0.6,0.5-1,1-1h5c0.6,0,1,0.5,1,1v16.5H18z M55.6,59.3H28.5V42.7
+                    c0-2.5-2-4.5-4.5-4.5h-5c-2.5,0-4.5,2-4.5,4.5v16.5h-6c-0.6,0-1-0.5-1-1V27c1.4,1,3,1.6,4.8,1.6c2.7,0,5.1-1.3,6.6-3.2
+                    c1.5,2,3.9,3.2,6.6,3.2c2.7,0,5.1-1.3,6.6-3.2c1.5,2,3.9,3.2,6.6,3.2c2.7,0,5.1-1.3,6.6-3.2c1.5,2,3.9,3.2,6.6,3.2
+                    c1.8,0,3.5-0.6,4.8-1.6v31.3C56.6,58.8,56.1,59.3,55.6,59.3z"/>
+                  <path d="M46.4,38.2h-5.1c-1.7,0-3.1,1.4-3.1,3.1v5.1c0,1.7,1.4,3.1,3.1,3.1h5.1c1.7,0,3.1-1.4,3.1-3.1v-5.1
+                    C49.5,39.6,48.1,38.2,46.4,38.2z M46,46.1h-4.4v-4.4H46V46.1z"/>
+                </g>
+              </svg>
+            </div>
+            <h4 class="font-bold text-xl text-dark mb-3">
+              Teraszok
+            </h4>
+            <p class="text-body-color mb-8 lg:mb-11">
+              Terasz, kerthelyiségek, kocsibeállók, tárolók ponyvázása, téliesítése.
+            </p>
+            <a href="szolgaltatasok.html" class="font-medium text-base text-body-color hover:text-primary">
+              Bővebben
+            </a>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+          <div class="bg-white mb-12 group wow fadeInUp" data-wow-delay=".25s">
+            <div class="
+                  w-[70px]
+                  h-[70px]
+                  flex
+                  items-center
+                  justify-center
+                  bg-primary
+                  rounded-2xl
+                  mb-8
+                  relative
+                  z-10
+                ">
+              <span class="
+                    w-[70px]
+                    h-[70px]
+                    flex
+                    items-center
+                    justify-center
+                    bg-primary bg-opacity-20
+                    rounded-2xl
+                    mb-8
+                    absolute
+                    z-[-1]
+                    top-0
+                    left-0
+                    rotate-[25deg]
+                    group-hover:rotate-45
+                    duration-300
+                  "></span>
+              <svg fill="#fff" width="52" height="52" version="1.1" id="lni_lni-layers" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                  y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+              <path d="M54,39.6l-1.6-0.9l1.9-1.1c1.9-1.2,3-3.2,2.9-5.4s-1.2-4.2-3.2-5.3l-3-1.7l3.2-2c1.9-1.2,3-3.2,2.9-5.4s-1.2-4.2-3.2-5.3
+                L35.2,2c-1.9-1.1-4.2-1-6.1,0L9.9,13.2c-1.9,1.1-3.1,3.1-3.1,5.3c0,2.2,1.2,4.2,3.1,5.3l3.1,1.8l-3.1,1.8c-1.9,1.1-3.1,3.1-3.1,5.3
+                c0,2.2,1.1,4.2,3.1,5.3l1.8,1l-1.7,1c-1.9,1.1-3.1,3.1-3.1,5.3c0,2.2,1.1,4.2,3.1,5.3l19.1,11c1,0.6,2,0.8,3.1,0.8
+                c1.1,0,2.2-0.3,3.2-0.9l18.9-11.6c1.9-1.2,3-3.2,2.9-5.4C57.1,42.6,56,40.6,54,39.6z M10.3,18.5c0-1,0.5-1.8,1.3-2.3L30.8,5.1
+                c0.4-0.2,0.9-0.4,1.3-0.4c0.4,0,0.9,0.1,1.3,0.3l18.8,10.5c0.8,0.5,1.3,1.3,1.4,2.3c0,1-0.5,1.8-1.3,2.3L33.5,31.8
+                c-0.8,0.5-1.9,0.5-2.7,0l-19.1-11C10.8,20.4,10.3,19.5,10.3,18.5z M10.3,32.8c0-1,0.5-1.8,1.3-2.3l4.9-2.8L29,34.9
+                c1,0.6,2,0.8,3.1,0.8c1.1,0,2.2-0.3,3.2-0.9l12.3-7.6l4.7,2.6c0.8,0.5,1.3,1.3,1.4,2.3c0,1-0.5,1.8-1.3,2.3L33.5,46.2
+                c-0.8,0.5-1.9,0.5-2.7,0l-19.1-11C10.8,34.7,10.3,33.8,10.3,32.8z M52.4,47.2L33.5,58.9c-0.8,0.5-1.9,0.5-2.7,0l-19.1-11
+                c-0.8-0.5-1.3-1.3-1.3-2.3c0-1,0.5-1.8,1.3-2.3l3.5-2l13.8,8c1,0.6,2,0.8,3.1,0.8c1.1,0,2.2-0.3,3.2-0.9L49,40.7l3.4,1.9
+                c0.8,0.5,1.3,1.3,1.4,2.3C53.7,45.8,53.2,46.7,52.4,47.2z"/>
+              </svg>
+                  
+            </div>
+            <h4 class="font-bold text-xl text-dark mb-3">
+              Árnyékolók
+            </h4>
+            <p class="text-body-color mb-8 lg:mb-11">
+              Napernyők, árnyékolók, napellenzők készítése, kerti bútorok ponyvázása.
+            </p>
+            <a href="szolgaltatasok.html" class="font-medium text-base text-body-color hover:text-primary">
+              Bővebben
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== Features Section End -->
+
+  <!-- ====== Faq Section Start -->
+  <section id="gyik" class="
+        bg-[#f3f4ff]
+        pt-20
+        lg:pt-[120px]
+        pb-12
+        lg:pb-[90px]
+        relative
+        z-20
+        overflow-hidden
+      ">
+    <div class="container">
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full px-4">
+          <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[620px]">
+            <span class="font-semibold text-lg text-primary mb-2 block">
+              Ponyva és reklám
+            </span>
+            <h2 class="
+                  font-bold
+                  text-3xl
+                  sm:text-4xl
+                  md:text-[42px]
+                  text-dark
+                  mb-4
+                ">
+              Mit kell tudni rólunk?
+            </h2>
+            <p class="
+                  text-lg
+                  sm:text-xl
+                  leading-relaxed
+                  sm:leading-relaxed
+                  text-body-color
+                ">
+              Fontosnak tartjuk, hogy precíz munkával szolgáljunk és elégedettek legyenek ügyfeleink
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full lg:w-1/2 px-4">
+          <div class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              " data-wow-delay=".1s
+              ">
+            <button class="faq-btn flex items-center w-full text-left">
+              <div class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  ">
+                <svg width="17" height="10" viewBox="0 0 17 10" class="fill-current icon">
+                  <path
+                    d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                    fill="#3056D3" stroke="#3056D3" />
+                </svg>
+              </div>
+              <div class="w-full">
+                <h4 class="text-base sm:text-lg font-semibold text-black">
+                  Több évtizedes tapasztalat
+                </h4>
+              </div>
+            </button>
+            <div class="faq-content pl-[62px] hidden">
+              <p class="text-base text-body-color leading-relaxed py-3">
+                Cégünk 2001 januárjában alakult. Az elmúlt 30 év ponyvatechnikai
+                tapasztalatait felhasználva színvonalas, a vevők érdekeit figyelemben
+                tartó szakmai szolgáltatás bevezetését tűzte ki céljául.
+              </p>
+            </div>
+          </div>
+          <div class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              " data-wow-delay=".15s
+              ">
+            <button class="faq-btn flex items-center w-full text-left">
+              <div class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  ">
+                <svg width="17" height="10" viewBox="0 0 17 10" class="fill-current icon">
+                  <path
+                    d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                    fill="#3056D3" stroke="#3056D3" />
+                </svg>
+              </div>
+              <div class="w-full">
+                <h4 class="text-base sm:text-lg font-semibold text-black">
+                  Precíz kiszolgálás
+                </h4>
+              </div>
+            </button>
+            <div class="faq-content pl-[62px] hidden">
+              <p class="text-base text-body-color leading-relaxed py-3">
+                Vállalkozásunk elsődleges céljai: Vevőink gyors és pontos
+                kiszolgálása, partnereink által támasztott igények maximális
+                kielégítése a minőség és a használhatóság terén, egyedi ötletek gyártása, kivitelezése. 
+              </p>
+            </div>
+          </div>
+          <div class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              " data-wow-delay=".2s
+              ">
+            <button class="faq-btn flex items-center w-full text-left">
+              <div class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  ">
+                <svg width="17" height="10" viewBox="0 0 17 10" class="fill-current icon">
+                  <path
+                    d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                    fill="#3056D3" stroke="#3056D3" />
+                </svg>
+              </div>
+              <div class="w-full">
+                <h4 class="text-base sm:text-lg font-semibold text-black">
+                  Rövid határidők
+                </h4>
+              </div>
+            </button>
+            <div class="faq-content pl-[62px] hidden">
+              <p class="text-base text-body-color leading-relaxed py-3">
+                Rövid határidővel vállaljuk mindenféle ponyva készítését,
+                javítását, feliratozását, tartószerkezetének gyártását bármilyen
+                egyedi méretben és kivitelben, valamint felépítmények készítését,
+                reklám termékek és sporteszközök készítését.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 px-4">
+          <div class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              " data-wow-delay=".1s
+              ">
+            <button class="faq-btn flex items-center w-full text-left">
+              <div class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  ">
+                <svg width="17" height="10" viewBox="0 0 17 10" class="fill-current icon">
+                  <path
+                    d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                    fill="#3056D3" stroke="#3056D3" />
+                </svg>
+              </div>
+              <div class="w-full">
+                <h4 class="text-base sm:text-lg font-semibold text-black">
+                  Ügyfélközpontúság
+                </h4>
+              </div>
+            </button>
+            <div class="faq-content pl-[62px] hidden">
+              <p class="text-base text-body-color leading-relaxed py-3">
+                Előzetesen egyeztetett időpontban hétköznap és akár hétvégén
+                is várjuk szeretettel ügyfeleinket. Személyes beszélgetés, és
+                helyszíni felmérés alapján segítünk kiválasztani az Ön tevékenységéhez
+                leginkább illő ponyva anyagot és színt is.
+              </p>
+            </div>
+          </div>
+          <div class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              " data-wow-delay=".15s
+              ">
+            <button class="faq-btn flex items-center w-full text-left">
+              <div class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  ">
+                <svg width="17" height="10" viewBox="0 0 17 10" class="fill-current icon">
+                  <path
+                    d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                    fill="#3056D3" stroke="#3056D3" />
+                </svg>
+              </div>
+              <div class="w-full">
+                <h4 class="text-base sm:text-lg font-semibold text-black">
+                  Erős szakmai háttér
+                </h4>
+              </div>
+            </button>
+            <div class="faq-content pl-[62px] hidden">
+              <p class="text-base text-body-color leading-relaxed py-3">
+                Egyéni elképzeléseinek megvalósításához szakembereink ötletekkel, tervrajzokkal is hozzájárulnak.
+                A technikai és szakmai háttér biztosított ahhoz, hogy a
+                műszaki ponyvaanyagokból előállított termékek széles választékát
+                tudjuk nyújtani partnereinknek.
+              </p>
+            </div>
+          </div>
+          <div class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              " data-wow-delay=".2s
+              ">
+            <button class="faq-btn flex items-center w-full text-left">
+              <div class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  ">
+                <svg width="17" height="10" viewBox="0 0 17 10" class="fill-current icon">
+                  <path
+                    d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                    fill="#3056D3" stroke="#3056D3" />
+                </svg>
+              </div>
+              <div class="w-full">
+                <h4 class="text-base sm:text-lg font-semibold text-black">
+                  Több technológia ismerete
+                </h4>
+              </div>
+            </button>
+            <div class="faq-content pl-[62px] hidden">
+              <p class="text-base text-body-color leading-relaxed py-3">
+                Alapvető PVC bázisú ponyvaanyagokat dolgozzuk fel forrólevegős hegesztési eljárással, de gyakorlattal rendelkezünk az impregnált textil-anyagok varrásában is. Rugalmas ügyintézéssel és reális alapokon nyugvó árakkal szolgáljuk ki vevőinket.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="absolute bottom-0 right-0 z-[-1]">
+      <svg width="1440" height="886" viewBox="0 0 1440 886" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.5"
+          d="M193.307 -273.321L1480.87 1014.24L1121.85 1373.26C1121.85 1373.26 731.745 983.231 478.513 729.927C225.976 477.317 -165.714 85.6993 -165.714 85.6993L193.307 -273.321Z"
+          fill="url(#paint0_linear)" />
+        <defs>
+          <linearGradient id="paint0_linear" x1="1308.65" y1="1142.58" x2="602.827" y2="-418.681"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3056D3" stop-opacity="0.36" />
+            <stop offset="1" stop-color="#F5F2FD" stop-opacity="0" />
+            <stop offset="1" stop-color="#F5F2FD" stop-opacity="0.096144" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+  </section>
+  <!-- ====== Faq Section End -->
+
+  <!-- ====== Testimonials Start ====== -->
+  <section id="rolunk" class="py-20 md:pt-[120px]">
+    <div class="container px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full mx-4">
+          <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[620px]">
+            <span class="font-semibold text-lg text-primary mb-2 block">
+              Ponyva és reklám
+            </span>
+            <h2 class="
+                  font-bold
+                  text-3xl
+                  sm:text-4xl
+                  md:text-[42px]
+                  text-dark
+                  mb-4
+                ">
+              Ügyfeleink mondták
+            </h2>
+            <p class="
+                  text-lg
+                  sm:text-xl
+                  leading-relaxed
+                  sm:leading-relaxed
+                  text-body-color
+                ">
+              Számít ügyfeleink véleménye, magas minőségű munkánknak és 
+              hozzáállásunknak köszönhetően teljes elégedettségről számolnak be.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div class="
+                ud-single-testimonial
+                p-8
+                bg-white
+                mb-12
+                shadow-testimonial
+                wow
+                fadeInUp
+              " data-wow-delay=".1s
+              ">
+            <div class="ud-testimonial-ratings flex items-center mb-3">
+              <span class="text-[#fbb040] mr-1">
+                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                  <path
+                    d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
+                </svg>
+              </span>
+              <span class="text-[#fbb040] mr-1">
+                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                  <path
+                    d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
+                </svg>
+              </span>
+              <span class="text-[#fbb040] mr-1">
+                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                  <path
+                    d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
+                </svg>
+              </span>
+              <span class="text-[#fbb040] mr-1">
+                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                  <path
+                    d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
+                </svg>
+              </span>
+              <span class="text-[#fbb040] mr-1">
+                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                  <path
+                    d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
+                </svg>
+              </span>
+            </div>
+            <div class="ud-testimonial-content mb-6">
+              <p class="text-base tracking-wide text-body-color">
+                “Nálunk egy kis terasz borítás készült, téli nyári megoldással, hogy bármikor leszedhető legyen.
+                Minőségi a ponyva, sikerült minden kérésemnek eleget tenni, ár érték arányban szép munkát kaptam.
+                Köszönöm szépen, legjobbakat kívánom!
+              </p>
+            </div>
+            <div class="ud-testimonial-info flex items-center">
+              <div class="
+                    ud-testimonial-image
+                    w-[50px]
+                    h-[50px]
+                    rounded-full
+                    overflow-hidden
+                    mr-5
+                  ">
+                <img src="assets/images/testimonials/author-01.png" alt="author" />
+              </div>
+              <div class="ud-testimonial-meta">
+                <h4 class="text-sm font-semibold">Fazekas László</h4>
+                <p class="text-[#969696] text-xs">@ Google értékelés</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div class="
+                ud-single-testimonial
+                p-8
+                bg-white
+                mb-12
+                shadow-testimonial
+                wow
+                fadeInUp
+              " data-wow-delay=".15s
+              ">
+            <div class="ud-testimonial-ratings flex items-center mb-3">
+              <span class="text-[#fbb040] mr-1">
+                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                  <path
+                    d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
+                </svg>
+              </span>
+              <span class="text-[#fbb040] mr-1">
+                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                  <path
+                    d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
+                </svg>
+              </span>
+              <span class="text-[#fbb040] mr-1">
+                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                  <path
+                    d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
+                </svg>
+              </span>
+              <span class="text-[#fbb040] mr-1">
+                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                  <path
+                    d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
+                </svg>
+              </span>
+              <span class="text-[#fbb040] mr-1">
+                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                  <path
+                    d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
+                </svg>
+              </span>
+            </div>
+            <div class="ud-testimonial-content mb-6">
+              <p class="text-base tracking-wide text-body-color">
+                “Remek, gyors és megbízható Cég. Birkózó szőnyeget és védőfalat gyártottak nekünk. Köszönjük a precíz munkát
+              </p>
+            </div>
+            <div class="ud-testimonial-info flex items-center">
+              <div class="
+                    ud-testimonial-image
+                    w-[50px]
+                    h-[50px]
+                    rounded-full
+                    overflow-hidden
+                    mr-5
+                  ">
+                <img src="assets/images/testimonials/author-02.png" alt="author" />
+              </div>
+              <div class="ud-testimonial-meta">
+                <h4 class="text-sm font-semibold">Mike Magic</h4>
+                <p class="text-[#969696] text-xs">@ Google értékelés</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div class="
+                ud-single-testimonial
+                p-8
+                bg-white
+                mb-12
+                shadow-testimonial
+                wow
+                fadeInUp
+              " data-wow-delay=".2s
+              ">
+            <div class="ud-testimonial-ratings flex items-center mb-3">
+              <span class="text-[#fbb040] mr-1">
+                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                  <path
+                    d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
+                </svg>
+              </span>
+              <span class="text-[#fbb040] mr-1">
+                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                  <path
+                    d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
+                </svg>
+              </span>
+              <span class="text-[#fbb040] mr-1">
+                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                  <path
+                    d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
+                </svg>
+              </span>
+              <span class="text-[#fbb040] mr-1">
+                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                  <path
+                    d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
+                </svg>
+              </span>
+              <span class="text-[#fbb040] mr-1">
+                <svg width="18" height="16" viewBox="0 0 18 16" class="fill-current">
+                  <path
+                    d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z" />
+                </svg>
+              </span>
+            </div>
+            <div class="ud-testimonial-content mb-6">
+              <p class="text-base tracking-wide text-body-color">
+                “Precíz gyors megbízható mínőségi munkát végeznek! 😉
+              </p>
+            </div>
+            <div class="ud-testimonial-info flex items-center">
+              <div class="
+                    ud-testimonial-image
+                    w-[50px]
+                    h-[50px]
+                    rounded-full
+                    overflow-hidden
+                    mr-5
+                  ">
+                <img src="assets/images/testimonials/author-03.png" alt="author" />
+              </div>
+              <div class="ud-testimonial-meta">
+                <h4 class="text-sm font-semibold">Szántó József</h4>
+                <p class="text-[#969696] text-xs">@ Google értékelés</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-wrap">
+        <div class="w-full mx-4">
+          <div class="wow fadeInUp" data-wow-delay=".2s">
+            <div class="ud-title mb-8">
+              <h6 class="
+                    text-xs
+                    font-normal
+                    text-body-color
+                    relative
+                    inline-flex
+                    items-center
+                  ">
+                Ponyváink a világban
+                <span class="w-8 h-[1px] inline-block bg-[#afb2b5] ml-4">
+                </span>
+              </h6>
+            </div>
+            <div class="ud-brands-logo flex items-center flex-wrap">
+              <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
+                <a href="https://www.facebook.com/photo/?fbid=409677222530718&set=a.111885385643238" target="_blank" rel="nofollow noopner">
+                  Team USA
+                </a>
+              </div>
+              <div class="ud-single-logo mr-10 mb-5 max-w-[240px]">
+                <a href="http://hunskate.hu/hirek/short-track/csucsteljesitmenyen-a-jegpalya-is" target="_blank" rel="nofollow noopner">
+                  Gyakorló Jégpálya
+                </a>
+              </div>
+              <div class="ud-single-logo mr-10 mb-5 max-w-[240px]">
+                <a href="https://www.facebook.com/Ponyva.Reklam.Sporteszkoz.Keszites/posts/412268303809159" target="_blank" rel="nofollow noopner">
+                  Székelyudvarhelyi Egyetem
+                </a>
+              </div>
+              <div class="ud-single-logo mr-10 mb-5 max-w-[240px]">
+                <a href="https://www.facebook.com/111867475645029/photos/a.111885385643238/217247278440381/" target="_blank" rel="nofollow noopner">
+                  Birkózó Világbajnokság Budapest
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== Testimonials End ====== -->
+
+  <!-- ====== Contact Start ====== -->
+  <section id="kapcsolat" class="py-20 md:py-[120px] relative">
+    <div class="
+          absolute
+          z-[-1]
+          w-full
+          h-1/2
+          lg:h-[45%]
+          xl:h-1/2
+          bg-[#f3f4fe]
+          top-0
+          left-0
+        "></div>
+    <div class="container px-4">
+      <div class="flex flex-wrap items-center -mx-4">
+        <div class="px-4 w-full lg:w-7/12 xl:w-8/12">
+          <div class="ud-contact-content-wrapper">
+            <div class="ud-contact-title mb-12 lg:mb-[150px]">
+              <span class="text-dark font-semibold text-base mb-5">
+                KAPCSOLAT
+              </span>
+              <h2 class="text-[35px] font-semibold">
+                Keressen minket <br />
+                Vegye fel velünk a kapcsolatot!
+              </h2>
+            </div>
+            <div class="flex flex-wrap justify-between mb-12 lg:mb-0">
+              <div class="flex max-w-full w-[330px] mb-8">
+                <div class="text-[32px] text-primary mr-6">
+                  <svg width="29" height="35" viewBox="0 0 29 35" class="fill-current">
+                    <path
+                      d="M14.5 0.710938C6.89844 0.710938 0.664062 6.72656 0.664062 14.0547C0.664062 19.9062 9.03125 29.5859 12.6406 33.5234C13.1328 34.0703 13.7891 34.3437 14.5 34.3437C15.2109 34.3437 15.8672 34.0703 16.3594 33.5234C19.9688 29.6406 28.3359 19.9062 28.3359 14.0547C28.3359 6.67188 22.1016 0.710938 14.5 0.710938ZM14.9375 32.2109C14.6641 32.4844 14.2812 32.4844 14.0625 32.2109C11.3828 29.3125 2.57812 19.3594 2.57812 14.0547C2.57812 7.71094 7.9375 2.625 14.5 2.625C21.0625 2.625 26.4219 7.76562 26.4219 14.0547C26.4219 19.3594 17.6172 29.2578 14.9375 32.2109Z" />
+                    <path
+                      d="M14.5 8.58594C11.2734 8.58594 8.59375 11.2109 8.59375 14.4922C8.59375 17.7188 11.2187 20.3984 14.5 20.3984C17.7812 20.3984 20.4062 17.7734 20.4062 14.4922C20.4062 11.2109 17.7266 8.58594 14.5 8.58594ZM14.5 18.4297C12.3125 18.4297 10.5078 16.625 10.5078 14.4375C10.5078 12.25 12.3125 10.4453 14.5 10.4453C16.6875 10.4453 18.4922 12.25 18.4922 14.4375C18.4922 16.625 16.6875 18.4297 14.5 18.4297Z" />
+                  </svg>
+                </div>
+                <div>
+                  <h5 class="text-lg font-semibold mb-6">Címünk</h5>
+                  <p class="text-base text-body-color">
+                    2310 Szigetszentmiklós, Kardos István u. 35.
+                  </p>
+                </div>
+              </div>
+              <div class="flex max-w-full w-[330px] mb-8">
+                <div class="text-[32px] text-primary mr-6">
+                  <svg width="34" height="25" viewBox="0 0 34 25" class="fill-current">
+                    <path
+                      d="M30.5156 0.960938H3.17188C1.42188 0.960938 0 2.38281 0 4.13281V20.9219C0 22.6719 1.42188 24.0938 3.17188 24.0938H30.5156C32.2656 24.0938 33.6875 22.6719 33.6875 20.9219V4.13281C33.6875 2.38281 32.2656 0.960938 30.5156 0.960938ZM30.5156 2.875C30.7891 2.875 31.0078 2.92969 31.2266 3.09375L17.6094 11.3516C17.1172 11.625 16.5703 11.625 16.0781 11.3516L2.46094 3.09375C2.67969 2.98438 2.89844 2.875 3.17188 2.875H30.5156ZM30.5156 22.125H3.17188C2.51562 22.125 1.91406 21.5781 1.91406 20.8672V5.00781L15.0391 12.9922C15.5859 13.3203 16.1875 13.4844 16.7891 13.4844C17.3906 13.4844 17.9922 13.3203 18.5391 12.9922L31.6641 5.00781V20.8672C31.7734 21.5781 31.1719 22.125 30.5156 22.125Z" />
+                  </svg>
+                </div>
+                <div>
+                  <h5 class="text-lg font-semibold mb-6">Email címünk</h5>
+                  <p class="text-base text-body-color">m0ponyvakft@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="px-4 w-full lg:w-5/12 xl:w-4/12">
+          <div class="
+                shadow-testimonial
+                rounded-lg
+                bg-white
+                py-10
+                px-8
+                md:p-[60px]
+                lg:p-10
+                2xl:p-[60px]
+                sm:py-12 sm:px-10
+                lg:py-12 lg:px-10
+                wow
+                fadeInUp
+              " data-wow-delay=".2s
+              ">
+            <h3 class="font-semibold mb-8 text-2xl md:text-[26px]">
+              Telephelyünk
+            </h3>
+            <iframe src="https://snazzymaps.com/embed/380374" width="100%" height="600px" style="border:none; border-radius: 6px;" class="mx-auto lg:ml-auto"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== Contact End ====== -->
+
+  <!-- ====== Footer Section Start -->
+  <footer class="bg-black pt-20 lg:pt-[60px] relative z-10 wow fadeInUp" data-wow-delay=".15s" style="overflow: hidden;">
+    
+    <div class="w-full md:w-1/2 lg:w-full px-4 text-base text-body-color leading-relaxed wow fadeInUp" id="tagcloud">
+      <div class="container">
+        <span>ponyva készítés</span>
+        <span>molinó gyártás</span>
+        <span>sátor készítés</span>
+        <span>háztartásbeli ponyva</span>
+        <span>takaró ponyva</span>
+        <span>autó matricázás</span>
+        <span>boxzsák varrás</span>
+        <span>mobilgarázs tervezés</span>
+        <span>ponyva javítás</span>
+        <span>ponyva akció</span>
+        <span>ponyva feliratozás</span>
+        <span>járműfelépítmény</span>
+        <span>ponyva anyag eladás</span>
+        <span>egyedi ponyva</span>
+        <span>ponyva eladó</span>
+        <span>autó ponyva</span>
+        <span>olcsó ponyva</span>
+        <span>pvc ponyva vásárlás</span>
+        <span>sátor ponyva gyártása</span>
+        <span>egyedi ponyva</span>
+        <span>kajak ponyva</span>
+        <span>vasszerkezetek tervezése</span>
+        <span>teherautó ponyva</span>
+        <span>terasz takaró ponyva</span>
+      </div>
+    </div>
+
+
+    <div class="border-t border-opacity-40 py-8 mt-12 lg:mt-[60px]">
+      <div class="container">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-2/3 lg:w-1/2 px-4">
+            <div class="my-1">
+              <div class="
+                    flex
+                    items-center
+                    justify-center
+                    md:justify-start
+                    -mx-3
+                  ">
+                <a href="javascript:void(0)" class="inline-block max-w-[160px] px-3">
+                  <img src="assets/images/logo/logo-white.png" alt="logo" class="max-w-full" />
+                </a>
+                <a href="javascript:void(0)" class="inline-block max-w-[260px] text-[#f3f4fe] px-3">
+                  Minőségi ponyva készítés korrekt áron, rövid határidővel.
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="w-full md:w-1/3 lg:w-1/2 px-4">
+            <div class="flex justify-center md:justify-end my-1">
+              <p class="text-base text-[#f3f4fe]">
+                Powered by
+                <a href="https://islndr.hu" rel="nofollow noopner" target="_blank"
+                  class="text-primary hover:underline">
+                  ISLNDR web
+                </a>
+              </p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <span class="absolute left-0 top-0 z-[-1]">
+        <img src="assets/images/footer/shape-1.svg" alt="" />
+      </span>
+
+      <span class="absolute bottom-0 right-0 z-[-1]">
+        <img src="assets/images/footer/shape-3.svg" alt="" />
+      </span>
+
+      <span class="absolute top-0 right-0 z-[-1]">
+        <svg width="102" height="102" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M1.8667 33.1956C2.89765 33.1956 3.7334 34.0318 3.7334 35.0633C3.7334 36.0947 2.89765 36.9309 1.8667 36.9309C0.835744 36.9309 4.50645e-08 36.0947 0 35.0633C-4.50645e-08 34.0318 0.835744 33.1956 1.8667 33.1956Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M18.2939 33.1956C19.3249 33.1956 20.1606 34.0318 20.1606 35.0633C20.1606 36.0947 19.3249 36.9309 18.2939 36.9309C17.263 36.9309 16.4272 36.0947 16.4272 35.0633C16.4272 34.0318 17.263 33.1956 18.2939 33.1956Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M34.7209 33.195C35.7519 33.195 36.5876 34.0311 36.5876 35.0626C36.5876 36.0941 35.7519 36.9303 34.7209 36.9303C33.69 36.9303 32.8542 36.0941 32.8542 35.0626C32.8542 34.0311 33.69 33.195 34.7209 33.195Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M50.9341 33.195C51.965 33.195 52.8008 34.0311 52.8008 35.0626C52.8008 36.0941 51.965 36.9303 50.9341 36.9303C49.9031 36.9303 49.0674 36.0941 49.0674 35.0626C49.0674 34.0311 49.9031 33.195 50.9341 33.195Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M1.8667 16.7605C2.89765 16.7605 3.7334 17.5966 3.7334 18.6281C3.7334 19.6596 2.89765 20.4957 1.8667 20.4957C0.835744 20.4957 4.50645e-08 19.6596 0 18.6281C-4.50645e-08 17.5966 0.835744 16.7605 1.8667 16.7605Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M18.2939 16.7605C19.3249 16.7605 20.1606 17.5966 20.1606 18.6281C20.1606 19.6596 19.3249 20.4957 18.2939 20.4957C17.263 20.4957 16.4272 19.6596 16.4272 18.6281C16.4272 17.5966 17.263 16.7605 18.2939 16.7605Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M34.7209 16.7605C35.7519 16.7605 36.5876 17.5966 36.5876 18.6281C36.5876 19.6596 35.7519 20.4957 34.7209 20.4957C33.69 20.4957 32.8542 19.6596 32.8542 18.6281C32.8542 17.5966 33.69 16.7605 34.7209 16.7605Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M50.9341 16.7605C51.965 16.7605 52.8008 17.5966 52.8008 18.6281C52.8008 19.6596 51.965 20.4957 50.9341 20.4957C49.9031 20.4957 49.0674 19.6596 49.0674 18.6281C49.0674 17.5966 49.9031 16.7605 50.9341 16.7605Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M1.8667 0.324951C2.89765 0.324951 3.7334 1.16115 3.7334 2.19261C3.7334 3.22408 2.89765 4.06024 1.8667 4.06024C0.835744 4.06024 4.50645e-08 3.22408 0 2.19261C-4.50645e-08 1.16115 0.835744 0.324951 1.8667 0.324951Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M18.2939 0.324951C19.3249 0.324951 20.1606 1.16115 20.1606 2.19261C20.1606 3.22408 19.3249 4.06024 18.2939 4.06024C17.263 4.06024 16.4272 3.22408 16.4272 2.19261C16.4272 1.16115 17.263 0.324951 18.2939 0.324951Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M34.7209 0.325302C35.7519 0.325302 36.5876 1.16147 36.5876 2.19293C36.5876 3.2244 35.7519 4.06056 34.7209 4.06056C33.69 4.06056 32.8542 3.2244 32.8542 2.19293C32.8542 1.16147 33.69 0.325302 34.7209 0.325302Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M50.9341 0.325302C51.965 0.325302 52.8008 1.16147 52.8008 2.19293C52.8008 3.2244 51.965 4.06056 50.9341 4.06056C49.9031 4.06056 49.0674 3.2244 49.0674 2.19293C49.0674 1.16147 49.9031 0.325302 50.9341 0.325302Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M66.9037 33.1956C67.9346 33.1956 68.7704 34.0318 68.7704 35.0633C68.7704 36.0947 67.9346 36.9309 66.9037 36.9309C65.8727 36.9309 65.037 36.0947 65.037 35.0633C65.037 34.0318 65.8727 33.1956 66.9037 33.1956Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M83.3307 33.1956C84.3616 33.1956 85.1974 34.0318 85.1974 35.0633C85.1974 36.0947 84.3616 36.9309 83.3307 36.9309C82.2997 36.9309 81.464 36.0947 81.464 35.0633C81.464 34.0318 82.2997 33.1956 83.3307 33.1956Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M99.7576 33.1956C100.789 33.1956 101.624 34.0318 101.624 35.0633C101.624 36.0947 100.789 36.9309 99.7576 36.9309C98.7266 36.9309 97.8909 36.0947 97.8909 35.0633C97.8909 34.0318 98.7266 33.1956 99.7576 33.1956Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M66.9037 16.7605C67.9346 16.7605 68.7704 17.5966 68.7704 18.6281C68.7704 19.6596 67.9346 20.4957 66.9037 20.4957C65.8727 20.4957 65.037 19.6596 65.037 18.6281C65.037 17.5966 65.8727 16.7605 66.9037 16.7605Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M83.3307 16.7605C84.3616 16.7605 85.1974 17.5966 85.1974 18.6281C85.1974 19.6596 84.3616 20.4957 83.3307 20.4957C82.2997 20.4957 81.464 19.6596 81.464 18.6281C81.464 17.5966 82.2997 16.7605 83.3307 16.7605Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M99.7576 16.7605C100.789 16.7605 101.624 17.5966 101.624 18.6281C101.624 19.6596 100.789 20.4957 99.7576 20.4957C98.7266 20.4957 97.8909 19.6596 97.8909 18.6281C97.8909 17.5966 98.7266 16.7605 99.7576 16.7605Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M66.9037 0.324966C67.9346 0.324966 68.7704 1.16115 68.7704 2.19261C68.7704 3.22408 67.9346 4.06024 66.9037 4.06024C65.8727 4.06024 65.037 3.22408 65.037 2.19261C65.037 1.16115 65.8727 0.324966 66.9037 0.324966Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M83.3307 0.324951C84.3616 0.324951 85.1974 1.16115 85.1974 2.19261C85.1974 3.22408 84.3616 4.06024 83.3307 4.06024C82.2997 4.06024 81.464 3.22408 81.464 2.19261C81.464 1.16115 82.2997 0.324951 83.3307 0.324951Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M99.7576 0.324951C100.789 0.324951 101.624 1.16115 101.624 2.19261C101.624 3.22408 100.789 4.06024 99.7576 4.06024C98.7266 4.06024 97.8909 3.22408 97.8909 2.19261C97.8909 1.16115 98.7266 0.324951 99.7576 0.324951Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M1.8667 82.2029C2.89765 82.2029 3.7334 83.039 3.7334 84.0705C3.7334 85.102 2.89765 85.9382 1.8667 85.9382C0.835744 85.9382 4.50645e-08 85.102 0 84.0705C-4.50645e-08 83.039 0.835744 82.2029 1.8667 82.2029Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M18.2939 82.2029C19.3249 82.2029 20.1606 83.039 20.1606 84.0705C20.1606 85.102 19.3249 85.9382 18.2939 85.9382C17.263 85.9382 16.4272 85.102 16.4272 84.0705C16.4272 83.039 17.263 82.2029 18.2939 82.2029Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M34.7209 82.2026C35.7519 82.2026 36.5876 83.0387 36.5876 84.0702C36.5876 85.1017 35.7519 85.9378 34.7209 85.9378C33.69 85.9378 32.8542 85.1017 32.8542 84.0702C32.8542 83.0387 33.69 82.2026 34.7209 82.2026Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M50.9341 82.2026C51.965 82.2026 52.8008 83.0387 52.8008 84.0702C52.8008 85.1017 51.965 85.9378 50.9341 85.9378C49.9031 85.9378 49.0674 85.1017 49.0674 84.0702C49.0674 83.0387 49.9031 82.2026 50.9341 82.2026Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M1.8667 65.7677C2.89765 65.7677 3.7334 66.6039 3.7334 67.6353C3.7334 68.6668 2.89765 69.503 1.8667 69.503C0.835744 69.503 4.50645e-08 68.6668 0 67.6353C-4.50645e-08 66.6039 0.835744 65.7677 1.8667 65.7677Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M18.2939 65.7677C19.3249 65.7677 20.1606 66.6039 20.1606 67.6353C20.1606 68.6668 19.3249 69.503 18.2939 69.503C17.263 69.503 16.4272 68.6668 16.4272 67.6353C16.4272 66.6039 17.263 65.7677 18.2939 65.7677Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M34.7209 65.7674C35.7519 65.7674 36.5876 66.6036 36.5876 67.635C36.5876 68.6665 35.7519 69.5027 34.7209 69.5027C33.69 69.5027 32.8542 68.6665 32.8542 67.635C32.8542 66.6036 33.69 65.7674 34.7209 65.7674Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M50.9341 65.7674C51.965 65.7674 52.8008 66.6036 52.8008 67.635C52.8008 68.6665 51.965 69.5027 50.9341 69.5027C49.9031 69.5027 49.0674 68.6665 49.0674 67.635C49.0674 66.6036 49.9031 65.7674 50.9341 65.7674Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M1.8667 98.2644C2.89765 98.2644 3.7334 99.1005 3.7334 100.132C3.7334 101.163 2.89765 102 1.8667 102C0.835744 102 4.50645e-08 101.163 0 100.132C-4.50645e-08 99.1005 0.835744 98.2644 1.8667 98.2644Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M1.8667 49.3322C2.89765 49.3322 3.7334 50.1684 3.7334 51.1998C3.7334 52.2313 2.89765 53.0675 1.8667 53.0675C0.835744 53.0675 4.50645e-08 52.2313 0 51.1998C-4.50645e-08 50.1684 0.835744 49.3322 1.8667 49.3322Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M18.2939 98.2644C19.3249 98.2644 20.1606 99.1005 20.1606 100.132C20.1606 101.163 19.3249 102 18.2939 102C17.263 102 16.4272 101.163 16.4272 100.132C16.4272 99.1005 17.263 98.2644 18.2939 98.2644Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M18.2939 49.3322C19.3249 49.3322 20.1606 50.1684 20.1606 51.1998C20.1606 52.2313 19.3249 53.0675 18.2939 53.0675C17.263 53.0675 16.4272 52.2313 16.4272 51.1998C16.4272 50.1684 17.263 49.3322 18.2939 49.3322Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M34.7209 98.2647C35.7519 98.2647 36.5876 99.1008 36.5876 100.132C36.5876 101.164 35.7519 102 34.7209 102C33.69 102 32.8542 101.164 32.8542 100.132C32.8542 99.1008 33.69 98.2647 34.7209 98.2647Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M50.9341 98.2647C51.965 98.2647 52.8008 99.1008 52.8008 100.132C52.8008 101.164 51.965 102 50.9341 102C49.9031 102 49.0674 101.164 49.0674 100.132C49.0674 99.1008 49.9031 98.2647 50.9341 98.2647Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M34.7209 49.3326C35.7519 49.3326 36.5876 50.1687 36.5876 51.2002C36.5876 52.2317 35.7519 53.0678 34.7209 53.0678C33.69 53.0678 32.8542 52.2317 32.8542 51.2002C32.8542 50.1687 33.69 49.3326 34.7209 49.3326Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M50.9341 49.3326C51.965 49.3326 52.8008 50.1687 52.8008 51.2002C52.8008 52.2317 51.965 53.0678 50.9341 53.0678C49.9031 53.0678 49.0674 52.2317 49.0674 51.2002C49.0674 50.1687 49.9031 49.3326 50.9341 49.3326Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M66.9037 82.2029C67.9346 82.2029 68.7704 83.0391 68.7704 84.0705C68.7704 85.102 67.9346 85.9382 66.9037 85.9382C65.8727 85.9382 65.037 85.102 65.037 84.0705C65.037 83.0391 65.8727 82.2029 66.9037 82.2029Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M83.3307 82.2029C84.3616 82.2029 85.1974 83.0391 85.1974 84.0705C85.1974 85.102 84.3616 85.9382 83.3307 85.9382C82.2997 85.9382 81.464 85.102 81.464 84.0705C81.464 83.0391 82.2997 82.2029 83.3307 82.2029Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M99.7576 82.2029C100.789 82.2029 101.624 83.039 101.624 84.0705C101.624 85.102 100.789 85.9382 99.7576 85.9382C98.7266 85.9382 97.8909 85.102 97.8909 84.0705C97.8909 83.039 98.7266 82.2029 99.7576 82.2029Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M66.9037 65.7674C67.9346 65.7674 68.7704 66.6036 68.7704 67.635C68.7704 68.6665 67.9346 69.5027 66.9037 69.5027C65.8727 69.5027 65.037 68.6665 65.037 67.635C65.037 66.6036 65.8727 65.7674 66.9037 65.7674Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M83.3307 65.7677C84.3616 65.7677 85.1974 66.6039 85.1974 67.6353C85.1974 68.6668 84.3616 69.503 83.3307 69.503C82.2997 69.503 81.464 68.6668 81.464 67.6353C81.464 66.6039 82.2997 65.7677 83.3307 65.7677Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M99.7576 65.7677C100.789 65.7677 101.624 66.6039 101.624 67.6353C101.624 68.6668 100.789 69.503 99.7576 69.503C98.7266 69.503 97.8909 68.6668 97.8909 67.6353C97.8909 66.6039 98.7266 65.7677 99.7576 65.7677Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M66.9037 98.2644C67.9346 98.2644 68.7704 99.1005 68.7704 100.132C68.7704 101.163 67.9346 102 66.9037 102C65.8727 102 65.037 101.163 65.037 100.132C65.037 99.1005 65.8727 98.2644 66.9037 98.2644Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M66.9037 49.3322C67.9346 49.3322 68.7704 50.1684 68.7704 51.1998C68.7704 52.2313 67.9346 53.0675 66.9037 53.0675C65.8727 53.0675 65.037 52.2313 65.037 51.1998C65.037 50.1684 65.8727 49.3322 66.9037 49.3322Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M83.3307 98.2644C84.3616 98.2644 85.1974 99.1005 85.1974 100.132C85.1974 101.163 84.3616 102 83.3307 102C82.2997 102 81.464 101.163 81.464 100.132C81.464 99.1005 82.2997 98.2644 83.3307 98.2644Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M83.3307 49.3322C84.3616 49.3322 85.1974 50.1684 85.1974 51.1998C85.1974 52.2313 84.3616 53.0675 83.3307 53.0675C82.2997 53.0675 81.464 52.2313 81.464 51.1998C81.464 50.1684 82.2997 49.3322 83.3307 49.3322Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M99.7576 98.2644C100.789 98.2644 101.624 99.1005 101.624 100.132C101.624 101.163 100.789 102 99.7576 102C98.7266 102 97.8909 101.163 97.8909 100.132C97.8909 99.1005 98.7266 98.2644 99.7576 98.2644Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M99.7576 49.3322C100.789 49.3322 101.624 50.1684 101.624 51.1998C101.624 52.2313 100.789 53.0675 99.7576 53.0675C98.7266 53.0675 97.8909 52.2313 97.8909 51.1998C97.8909 50.1684 98.7266 49.3322 99.7576 49.3322Z"
+            fill="white" fill-opacity="0.08"></path>
+        </svg>
+      </span>
+    </div>
+  </footer>
+  <!-- ====== Footer Section End -->
+
+  <!-- ====== Back To Top Start -->
+  <a href="javascript:void(0)" class="
+        hidden
+        items-center
+        justify-center
+        bg-primary
+        text-white
+        w-10
+        h-10
+        rounded-md
+        fixed
+        bottom-8
+        right-8
+        left-auto
+        z-[999]
+        hover:bg-dark
+        back-to-top
+        shadow-md
+        transition
+        duration-300
+        ease-in-out
+      ">
+    <span class="w-3 h-3 border-t border-l border-white rotate-45 mt-[6px]"></span>
+  </a>
+  <!-- ====== Back To Top End -->
+
+  <!-- ====== All Scripts -->
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    // for menu scroll
+    const pageLink = document.querySelectorAll(".ud-menu-scroll");
+
+    pageLink.forEach((elem) => {
+      elem.addEventListener("click", (e) => {
+        e.preventDefault();
+        document.querySelector(elem.getAttribute("href")).scrollIntoView({
+          behavior: "smooth",
+          offsetTop: 1 - 60,
+        });
+      });
+    });
+
+    // section menu active
+    function onScroll(event) {
+      const sections = document.querySelectorAll(".ud-menu-scroll");
+      const scrollPos =
+        window.pageYOffset ||
+        document.documentElement.scrollTop ||
+        document.body.scrollTop;
+
+      for (let i = 0; i < sections.length; i++) {
+        const currLink = sections[i];
+        const val = currLink.getAttribute("href");
+        const refElement = document.querySelector(val);
+        const scrollTopMinus = scrollPos + 73;
+        if (
+          refElement.offsetTop <= scrollTopMinus &&
+          refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
+        ) {
+          document
+            .querySelector(".ud-menu-scroll")
+            .classList.remove("active");
+          currLink.classList.add("active");
+        } else {
+          currLink.classList.remove("active");
+        }
+      }
+    }
+
+    window.document.addEventListener("scroll", onScroll);
+  </script>
+</body>
+
+</html>
